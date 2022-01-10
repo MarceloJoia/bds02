@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.devsuperior.bds02.dto.EventDTO;
 import com.devsuperior.bds02.services.EventService;
        
-
 @RestController
 @RequestMapping(value = "/events")
 public class EventController {
